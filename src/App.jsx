@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    // <>
+    //   <div className="noise"></div>
+    //   <div className="overlay"></div>
+    //   <div className="terminal">
+    //     <h1>
+    //       <span className="errorcode">Joel J George</span>
+    //     </h1>
+    //     <p className="output">
+    //       Goal-oriented software developer engineer with a passion for creating
+    //       desktop apps and exploring web technologies
+    //     </p>
+    //     <p className="output">
+    //       Please try to <a href="#1">go back</a> or{" "}
+    //       <a href="#2">return to the homepage</a>.
+    //     </p>
+    //     <p className="output">Good luck.</p>
+    //   </div>
+    // </>
+  );
 }
 
-export default App
+export default App;
