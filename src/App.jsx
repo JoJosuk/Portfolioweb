@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 // eslint-disable-next-line no-unused-vars
 import Terminal from "./components/terminal";
 // import Typewriter from "typewriter-effect";
