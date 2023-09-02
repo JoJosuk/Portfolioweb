@@ -20,6 +20,9 @@ export default function FilesAndFolders() {
             alt="is this not working"
           />
         </div>
+        <div className="flex flex-col w-16">
+          <img src="src\assets\images\pdf (2).png" alt="is this not working" />
+        </div>
       </div>
     </>
   );
