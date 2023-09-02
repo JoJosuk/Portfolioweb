@@ -5,19 +5,19 @@ export default function FilesAndFolders() {
         <div className="flex flex-col w-16">
           <img
             src="src\assets\images\html-icon.svg"
-            alt="is this shit not working"
+            alt="is this not working"
           />
         </div>
         <div className="flex flex-col w-16">
           <img
             src="src\assets\images\html-icon.svg"
-            alt="is this shit not working"
+            alt="is this not working"
           />
         </div>
         <div className="flex flex-col w-16">
           <img
             src="src\assets\images\html-icon.svg"
-            alt="is this shit not working"
+            alt="is this not working"
           />
         </div>
       </div>
