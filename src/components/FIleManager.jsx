@@ -1,4 +1,5 @@
 import FilesAndFolders from "./FilesAndFolders";
+import HomeCard from "./HomeCard";
 export default function FileManager() {
   return (
     <>
@@ -57,6 +58,7 @@ export default function FileManager() {
               </div>
             </div>
             <FilesAndFolders />
+            <HomeCard />
           </div>
         </div>
       </div>
