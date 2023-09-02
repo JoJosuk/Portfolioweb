@@ -1,3 +1,4 @@
+import FilesAndFolders from "./FilesAndFolders";
 export default function FileManager() {
   return (
     <>
@@ -55,6 +56,7 @@ export default function FileManager() {
                 </svg>
               </div>
             </div>
+            <FilesAndFolders />
           </div>
         </div>
       </div>
