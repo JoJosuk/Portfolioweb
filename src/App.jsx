@@ -5,7 +5,9 @@ import Terminal from "./components/terminal";
 
 function App() {
   return (
-    <Terminal />
+    <>
+      <Terminal />
+    </>
     // <>
     //   <div className="noise"></div>
     //   <div className="overlay">
