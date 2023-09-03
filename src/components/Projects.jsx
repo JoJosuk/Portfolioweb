@@ -38,7 +38,7 @@ export default function Projects() {
               src="\src\assets\images\django-svgrepo-com.svg"
               alt="idk how"
             />
-            <img src="src/assets/images/nodejs.svg" alt="idk how" />
+            <img src="src\assets\images\python-svgrepo-com.svg" alt="idk how" />
             <img src="src/assets/images/mongodb.svg" alt="idk how" />
           </div>
         </div>
