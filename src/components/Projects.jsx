@@ -88,9 +88,10 @@ export default function Projects() {
             AISA club website
           </a>
           <p className="pt-5 text-2xl leading-10">
-            A React web app that enables users to search for anime and open them
-            in GogoAnime by utilizing the GogoAnime API to retrieve information
-            on anime titles, episodes, and videos.
+            The AISA Space Club website is an interactive and engaging online
+            platform developed for the space enthusiasts. Built using HTML, CSS,
+            JavaScript, and Three.js, this website serves as a hub of
+            information, resources, and activities related to space exploration.
           </p>
 
           <div className="flex w-12 gap-2 pt-3">
