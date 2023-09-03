@@ -4,9 +4,11 @@ export default function FileManager() {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-screen h-screen py-3 bg-cover bg-hero-pattern">
-        <div className="flex w-4/5 h-full  rounded-2xl">
-          <div className="w-1/4 bg-slate-200 rounded-l-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70 "></div>
-          <div className="flex flex-col w-3/4 bg-white  rounded-r-2xl">
+        <div className="flex w-4/5 h-full rounded-2xl">
+          <div className="w-1/4 bg-slate-200 rounded-l-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70 ">
+            <Sidebar />
+          </div>
+          <div className="flex flex-col w-3/4 bg-white rounded-r-2xl">
             <div className="flex flex-row-reverse w-full h-8 gap-3 p-1 pl-2 border-b border-black border-opacity-40 rounded-tr-2xl">
               <div className="rounded-md hover:bg-red-600">
                 <svg
