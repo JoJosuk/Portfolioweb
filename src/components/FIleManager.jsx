@@ -1,6 +1,7 @@
 import FilesAndFolders from "./FilesAndFolders";
 import HomeCard from "./HomeCard";
 import Sidebar from "./Sidebar";
+// import About from "./About";
 export default function FileManager() {
   return (
     <>
