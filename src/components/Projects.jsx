@@ -2,6 +2,8 @@ export default function Projects() {
   return (
     <>
       <div className="w-full pr-1 text-white p-7 bg-stone-900 font-space">
+        <p className="text-lg pt-9">Hey these are the apps I created ,</p>
+
         <div className="w-3/4 pt-12 text-5xl font-light leading-12 ">
           <a
             href="https://github.com/JoJosuk/SpinRent"
@@ -82,7 +84,7 @@ export default function Projects() {
         </div>
         <div className="w-3/4 pt-12 text-5xl font-light leading-12 ">
           <a
-            href="https://github.com/JoJosuk/Tito-anime"
+            href="https://github.com/JoJosuk/AISA_Website"
             className="underline underline-offset-12"
           >
             AISA club website
@@ -96,6 +98,7 @@ export default function Projects() {
 
           <div className="flex w-12 gap-2 pt-3">
             <img src="src\assets\images\react-icons.svg" alt="idk how" />
+            <img src="src\assets\images\sass-svgrepo-com.svg" alt="idk how" />
           </div>
         </div>
       </div>
