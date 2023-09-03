@@ -17,6 +17,9 @@ export default {
         "extra-loose": "4",
         12: "4rem",
       },
+      textUnderlineOffset: {
+        12: "12px",
+      },
     },
   },
   plugins: [],
