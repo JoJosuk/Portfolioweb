@@ -11,6 +11,11 @@ export default {
       fontFamily: {
         sans: ["Fira Sans"],
         code: ["Fira Code"],
+        space: ["Nunito"],
+      },
+      lineHeight: {
+        "extra-loose": "4",
+        12: "4rem",
       },
     },
   },
