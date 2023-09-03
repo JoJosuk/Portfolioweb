@@ -14,8 +14,9 @@ export default function Projects() {
             users to find and book the perfect vehicle for their needs.
           </p>
 
-          <div className="flex w-1/2">
+          <div className="flex w-20">
             <img src="src\assets\images\react-icons.svg" alt="idk how" />
+            <img src="src/assets/images/nodejs.svg" alt="idk how" />
           </div>
         </div>
       </div>
