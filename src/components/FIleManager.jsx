@@ -3,12 +3,12 @@ import HomeCard from "./HomeCard";
 export default function FileManager() {
   return (
     <>
-      <div className="bg-hero-pattern h-screen w-screen bg-cover flex flex-col items-center justify-center py-3">
-        <div className="w-4/5 h-full rounded-2xl  flex">
+      <div className="flex flex-col items-center justify-center w-screen h-screen py-3 bg-cover bg-hero-pattern">
+        <div className="flex w-4/5 h-full  rounded-2xl">
           <div className="w-1/4 bg-slate-200 rounded-l-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70 "></div>
-          <div className=" w-3/4 bg-white rounded-r-2xl flex flex-col">
-            <div className="w-full h-8  flex flex-row-reverse gap-3 border-b border-black border-opacity-40 p-1 rounded-tr-2xl pl-2">
-              <div className="hover:bg-red-600 rounded-md">
+          <div className="flex flex-col w-3/4 bg-white  rounded-r-2xl">
+            <div className="flex flex-row-reverse w-full h-8 gap-3 p-1 pl-2 border-b border-black border-opacity-40 rounded-tr-2xl">
+              <div className="rounded-md hover:bg-red-600">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
