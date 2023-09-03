@@ -3,8 +3,8 @@ import HomeCard from "./HomeCard";
 export default function FileManager() {
   return (
     <>
-      <div className="bg-hero-pattern h-screen w-screen bg-cover flex flex-col items-center justify-center ">
-        <div className="w-3/5 h-4/5 rounded-2xl  flex">
+      <div className="bg-hero-pattern h-screen w-screen bg-cover flex flex-col items-center justify-center py-3">
+        <div className="w-4/5 h-full rounded-2xl  flex">
           <div className="w-1/4 bg-slate-200 rounded-l-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70 "></div>
           <div className=" w-3/4 bg-white rounded-r-2xl flex flex-col">
             <div className="w-full h-8  flex flex-row-reverse gap-3 border-b border-black border-opacity-40 p-1 rounded-tr-2xl pl-2">
