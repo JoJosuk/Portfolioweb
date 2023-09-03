@@ -10,6 +10,7 @@ export default {
       },
       fontFamily: {
         sans: ["Fira Sans"],
+        code: ["Fira Code"],
       },
     },
   },
