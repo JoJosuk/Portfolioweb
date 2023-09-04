@@ -2,6 +2,9 @@
 import Sidebar from "./Sidebar";
 import FilesAndFolders from "./FilesAndFolders";
 import HomeCard from "./HomeCard";
+function redirectto(str) {
+  window.location.href = str;
+}
 export default function FileManager() {
   return (
     <>
@@ -12,7 +15,12 @@ export default function FileManager() {
           </div>
           <div className="flex flex-col w-3/4 bg-white rounded-r-2xl">
             <div className="flex flex-row-reverse w-full h-8 gap-3 p-1 pl-2 border-b border-black border-opacity-40 rounded-tr-2xl">
-              <div className="rounded-md hover:bg-red-600">
+              <div
+                className="rounded-md hover:bg-red-600"
+                onClick={() => {
+                  redirectto("https://github.com/JoJosuk");
+                }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

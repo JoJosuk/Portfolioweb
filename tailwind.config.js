@@ -15,7 +15,7 @@ export default {
       },
       lineHeight: {
         "extra-loose": "4",
-        12: "4rem",
+        12: "3.5rem",
       },
       textUnderlineOffset: {
         12: "12px",
