@@ -1,3 +1,6 @@
+function redirectto() {
+  window.location.href = "/";
+}
 export default function Connect() {
   return (
     <>
@@ -46,6 +49,17 @@ export default function Connect() {
             always open to new connections and conversations. Looking forward to
             connecting with you!
           </h1>
+        </div>
+        <div
+          onClick={() => redirectto()}
+          className="fixed bottom-0 right-0 pb-3 pr-3 cursor-pointer"
+        >
+          <div
+            className="flex items-center justify-center w-20 h-20 text-lg font-semibold text-black ease-linear origin-center rotate-45 rounded-full hover:rotate-0 hover:scale-110 hover:bg-amber-600 bg-amber-500 font-code"
+            style={{ right: 0 }}
+          >
+            Home
+          </div>
         </div>
       </div>
     </>

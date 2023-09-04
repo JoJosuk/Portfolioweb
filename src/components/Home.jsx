@@ -1,27 +1,36 @@
+function redirectto() {
+  window.location.href = "/";
+}
 export default function Home() {
   return (
     <>
-      <div className="w-full h-screen pr-1 text-white p-7 bg-stone-900 font-space">
+      <div className="w-full min-h-screen pr-1 text-white p-7 bg-stone-900 font-space">
+        <div className="absolute pt-2 pl-20 text-amber-500">
+          <p className="text-xl font-code ">
+            Joel J George <br /> SDE
+          </p>
+        </div>
         <nav className="flex justify-center ">
-          <ul className="flex items-center justify-between gap-5 text-lg">
-            <li>
+          <ul className="flex items-center justify-between gap-8 text-lg">
+            <li className="hover:scale-110 hover:text-amber-500">
               <a href="/">Home</a>
             </li>
-            <li>
+            <li className="hover:scale-110 hover:text-amber-500">
               <a href="/about">About</a>
             </li>
-            <li>
+            <li className="hover:scale-110 hover:text-amber-500">
               <a href="/projects">Projects</a>
             </li>
-            <li>
+            <li className="hover:scale-110 hover:text-amber-500">
               <a href="/connect">Connect</a>
             </li>
           </ul>
         </nav>
-        <div className="flex flex-col justify-center w-4/5 h-full text-4xl font-light leading-12">
+        <div className="flex flex-col justify-center w-4/5 text-4xl font-light pt-44 leading-12">
           <p className="pl-20 text-5xl font-medium">
-            Hello, I am a Software Developer Engineer, delving into the realms
-            of desktop and web technologies.
+            Hello, I am a{" "}
+            <span className="text-amber-500">Software Developer Engineer</span>,
+            delving into the realms of desktop and web technologies.
           </p>
           <div className="pl-20">
             <div className="flex flex-row gap-4 w-28">
@@ -85,6 +94,17 @@ export default function Home() {
             </div>
             <p className="p-0 text-lg">joeljoby111@gmail.com </p>
             <p className="p-0 text-lg">+91 9995017479</p>
+          </div>
+        </div>
+        <div
+          onClick={() => redirectto()}
+          className="fixed bottom-0 right-0 pb-3 pr-3"
+        >
+          <div
+            className="flex items-center justify-center w-20 h-20 text-lg font-semibold text-black ease-linear origin-center rotate-45 rounded-full cursor-pointer hover:rotate-0 hover:scale-110 hover:bg-amber-600 bg-amber-500 font-code"
+            style={{ right: 0 }}
+          >
+            Home
           </div>
         </div>
       </div>
