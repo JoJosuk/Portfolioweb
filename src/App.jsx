@@ -5,6 +5,7 @@ import "./App.css";
 import FileManager from "./components/FIleManager";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Connect from "./components/Connect";
 
 // import About from "./components/About";
 // import Projects from "./components/Projects";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<FileManager />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/connect" element={<Connect />}></Route>
       </Routes>
     </>
   );
