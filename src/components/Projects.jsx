@@ -1,4 +1,6 @@
 import ReactIcon from "../assets/images/React-icon";
+import Nodeicon from "../assets/images/Node-js-icon";
+import MongoIcon from "../assets/images/Mongodbicon";
 function redirectto() {
   window.location.href = "/";
 }
@@ -20,11 +22,16 @@ export default function Projects() {
             users to find and book the perfect vehicle for their needs.
           </p>
 
-          <div className="flex gap-2 pt-3">
-            <ReactIcon />
-
-            {/* <img src="src/assets/images/nodejs.svg" alt="idk how" />
-            <img src="src/assets/images/mongodb.svg" alt="idk how" /> */}
+          <div className="flex items-center gap-4 pt-3">
+            <div className="w-20">
+              <ReactIcon />
+            </div>
+            <div className="w-20">
+              <Nodeicon />
+            </div>
+            <div className="w-20">
+              <MongoIcon />
+            </div>
           </div>
         </div>
         <div className="w-3/4 pt-12 text-5xl font-light leading-12 ">
