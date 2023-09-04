@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <nav className="flex justify-center ">
           <ul className="flex items-center justify-between gap-8 text-lg">
-            <li className="hover:scale-110 hover:text-amber-500">
+            <li className="hover:scale-110 text-amber-500">
               <a href="/">Home</a>
             </li>
             <li className="hover:scale-110 hover:text-amber-500">

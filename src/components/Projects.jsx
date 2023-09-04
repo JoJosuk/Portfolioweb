@@ -1,3 +1,4 @@
+import ReactIcon from "../assets/images/React-icon";
 function redirectto() {
   window.location.href = "/";
 }
@@ -19,10 +20,11 @@ export default function Projects() {
             users to find and book the perfect vehicle for their needs.
           </p>
 
-          <div className="flex w-12 gap-2 pt-3">
-            <img src="src\assets\images\react-icons.svg" alt="idk how" />
-            <img src="src/assets/images/nodejs.svg" alt="idk how" />
-            <img src="src/assets/images/mongodb.svg" alt="idk how" />
+          <div className="flex gap-2 pt-3">
+            <ReactIcon />
+
+            {/* <img src="src/assets/images/nodejs.svg" alt="idk how" />
+            <img src="src/assets/images/mongodb.svg" alt="idk how" /> */}
           </div>
         </div>
         <div className="w-3/4 pt-12 text-5xl font-light leading-12 ">
