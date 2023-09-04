@@ -16,14 +16,14 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <>
+    <div className="relative">
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/projects" element={<Projects />}></Route>
         <Route path="/connect" element={<Connect />}></Route>
       </Routes>
-    </>
+    </div>
   );
 }
 
