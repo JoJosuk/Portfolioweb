@@ -1,13 +1,11 @@
+// import About from "./About";
+import Sidebar from "./Sidebar";
 import FilesAndFolders from "./FilesAndFolders";
 import HomeCard from "./HomeCard";
-import Sidebar from "./Sidebar";
-import About from "./About";
-import Projects from "./Projects";
-// import About from "./About";
 export default function FileManager() {
   return (
     <>
-      {/* <div className="flex flex-col items-center justify-center w-screen h-screen py-3 bg-cover bg-hero-pattern">
+      <div className="flex flex-col items-center justify-center w-screen h-screen py-3 bg-cover bg-hero-pattern">
         <div className="flex w-4/5 h-full rounded-2xl">
           <div className="w-1/4 bg-slate-200 rounded-l-2xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70 ">
             <Sidebar />
@@ -67,8 +65,7 @@ export default function FileManager() {
             <HomeCard />
           </div>
         </div>
-      </div> */}
-      <Projects />
+      </div>
     </>
   );
 }
