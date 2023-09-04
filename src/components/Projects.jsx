@@ -99,6 +99,7 @@ export default function Projects() {
           <div className="flex w-12 gap-2 pt-3">
             <img src="src\assets\images\react-icons.svg" alt="idk how" />
             <img src="src\assets\images\sass-svgrepo-com.svg" alt="idk how" />
+            <img src="src\assets\images\threejs.svg" alt="" />
           </div>
         </div>
       </div>
