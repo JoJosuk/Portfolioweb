@@ -1,6 +1,9 @@
 function redirectto() {
   window.location.href = "/";
 }
+function redirecttostr(str) {
+  window.location.href = str;
+}
 export default function Home() {
   return (
     <>
@@ -35,6 +38,9 @@ export default function Home() {
           <div className="pl-20">
             <div className="flex flex-row gap-4 w-28">
               <svg
+                onClick={() =>
+                  redirecttostr("https://twitter.com/joelgeorge28635")
+                }
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
                 height="100"
@@ -54,6 +60,7 @@ export default function Home() {
                 ></path>
               </svg>
               <svg
+                onClick={() => redirecttostr("https://github.com/JoJosuk")}
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
                 height="100"
@@ -73,6 +80,9 @@ export default function Home() {
                 ></path>
               </svg>
               <svg
+                onClick={() =>
+                  redirecttostr("https://www.linkedin.com/in/joeljgeorge/")
+                }
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
                 height="100"

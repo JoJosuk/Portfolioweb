@@ -13,35 +13,35 @@ export default function Connect() {
             channels. You can connect with me on &nbsp;
             <a
               href="https://www.linkedin.com/in/joeljgeorge/"
-              className="underline underline-offset-8"
+              className="underline underline-offset-8 text-amber-500"
             >
               linkedin&nbsp;
             </a>
             for professional networking, drop me an{" "}
             <a
               href="mailto:joeljoby111@gmail.com"
-              className="underline underline-offset-8"
+              className="underline underline-offset-8 text-amber-500"
             >
               email
             </a>{" "}
             for direct communication, explore my code on{" "}
             <a
               href="https://github.com/JoJosuk"
-              className="underline underline-offset-8"
+              className="underline underline-offset-8 text-amber-500"
             >
               GitHub
             </a>
             , or catch up on my occasional thoughts and recommendations on{" "}
             <a
               href="https://twitter.com/joelgeorge28635"
-              className="underline underline-offset-8"
+              className="underline underline-offset-8 text-amber-500"
             >
               Twitter
             </a>
             . While my{" "}
             <a
               href="https://www.instagram.com/joel_j_george/"
-              className="underline underline-offset-8"
+              className="underline underline-offset-8 text-amber-500"
             >
               Instagram
             </a>{" "}
