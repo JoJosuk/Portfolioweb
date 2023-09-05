@@ -52,12 +52,15 @@ export default function Projects() {
 
           <div className="flex w-12 gap-2 pt-3">
             <img
-              src="\src\assets\images\django-svgrepo-com.svg"
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/cc3af8c85df79211f46f261e3ea6192a10df0a69/src/assets/images/django-svgrepo-com.svg?token=AVYXDN7B3RF5BUE7FEJQP33E63NCA"
               alt="idk how"
             />
-            <img src="src\assets\images\python-svgrepo-com.svg" alt="idk how" />
             <img
-              src="src\assets\images\selenium-svgrepo-com (1).svg"
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/cc3af8c85df79211f46f261e3ea6192a10df0a69/src/assets/images/python-svgrepo-com.svg?token=AVYXDNZBNUSFTSYYTKSHR23E63M62"
+              alt="idk how"
+            />
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/cc3af8c85df79211f46f261e3ea6192a10df0a69/src/assets/images/selenium-svgrepo-com%20(1).svg?token=AVYXDNZIDD5I46JAWPTJYRDE63NHA"
               alt="idk how"
             />
           </div>
@@ -77,7 +80,10 @@ export default function Projects() {
           </p>
 
           <div className="flex w-12 gap-2 pt-3">
-            <img src="src\assets\images\python-svgrepo-com.svg" alt="idk how" />
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/cc3af8c85df79211f46f261e3ea6192a10df0a69/src/assets/images/python-svgrepo-com.svg?token=AVYXDNZBNUSFTSYYTKSHR23E63M62"
+              alt="idk how"
+            />
           </div>
         </div>
         <div className="w-3/4 pt-12 text-5xl font-light leading-12 ">
@@ -119,8 +125,14 @@ export default function Projects() {
               src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/main/src/assets/images/react-icons.svg?token=GHSAT0AAAAAACHBROVMNS7IBWZRUAGRGITEZHW44DA"
               alt="idk how"
             />
-            <img src="src\assets\images\sass-svgrepo-com.svg" alt="idk how" />
-            <img src="src\assets\images\threejs.svg" alt="" />
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/cc3af8c85df79211f46f261e3ea6192a10df0a69/src/assets/images/sass-svgrepo-com.svg?token=AVYXDN2B2QTXZWHKW74PRTDE63NLS"
+              alt="idk how"
+            />
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/cc3af8c85df79211f46f261e3ea6192a10df0a69/src/assets/images/threejs.svg?token=AVYXDNYPJUBLRHPRN2GKBALE63NN2"
+              alt=""
+            />
           </div>
         </div>
         <div
