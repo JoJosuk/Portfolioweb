@@ -1,6 +1,6 @@
-import ReactIcon from "../assets/images/React-icon";
-import Nodeicon from "../assets/images/Node-js-icon";
-import MongoIcon from "../assets/images/Mongodbicon";
+// import ReactIcon from "../assets/images/React-icon";
+// import Nodeicon from "../assets/images/Node-js-icon";
+// import MongoIcon from "../assets/images/Mongodbicon";
 function redirectto() {
   window.location.href = "/";
 }
@@ -22,16 +22,19 @@ export default function Projects() {
             users to find and book the perfect vehicle for their needs.
           </p>
 
-          <div className="flex items-center gap-4 pt-3">
-            <div className="w-20">
-              <ReactIcon />
-            </div>
-            <div className="w-20">
-              <Nodeicon />
-            </div>
-            <div className="w-20">
-              <MongoIcon />
-            </div>
+          <div className="flex w-12 gap-2 pt-3">
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/main/src/assets/images/react-icons.svg?token=GHSAT0AAAAAACHBROVMNS7IBWZRUAGRGITEZHW44DA"
+              alt="idk how"
+            />
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/cc3af8c85df79211f46f261e3ea6192a10df0a69/src/assets/images/nodejs.svg?token=AVYXDN6XTTCSDKCVFDWWFLDE63MYQ"
+              alt="idk how"
+            />
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/cc3af8c85df79211f46f261e3ea6192a10df0a69/src/assets/images/mongodb.svg?token=AVYXDN7HFVAUD6ISWGCKE7TE63M2W"
+              alt="idk how"
+            />
           </div>
         </div>
         <div className="w-3/4 pt-12 text-5xl font-light leading-12 ">
@@ -91,7 +94,10 @@ export default function Projects() {
           </p>
 
           <div className="flex w-12 gap-2 pt-3">
-            <img src="src\assets\images\react-icons.svg" alt="idk how" />
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/main/src/assets/images/react-icons.svg?token=GHSAT0AAAAAACHBROVMNS7IBWZRUAGRGITEZHW44DA"
+              alt="idk how"
+            />
           </div>
         </div>
         <div className="w-3/4 pt-12 text-5xl font-light leading-12 ">
@@ -109,7 +115,10 @@ export default function Projects() {
           </p>
 
           <div className="flex w-12 gap-2 pt-3">
-            <img src="src\assets\images\react-icons.svg" alt="idk how" />
+            <img
+              src="https://raw.githubusercontent.com/JoJosuk/Portfolioweb/main/src/assets/images/react-icons.svg?token=GHSAT0AAAAAACHBROVMNS7IBWZRUAGRGITEZHW44DA"
+              alt="idk how"
+            />
             <img src="src\assets\images\sass-svgrepo-com.svg" alt="idk how" />
             <img src="src\assets\images\threejs.svg" alt="" />
           </div>
