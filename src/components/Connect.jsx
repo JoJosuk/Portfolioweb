@@ -4,9 +4,9 @@ function redirectto() {
 export default function Connect() {
   return (
     <>
-      <div className="w-full pr-1 text-white p-7 bg-stone-900 font-space">
-        <p className="text-lg pt-9">Hey Connect with me ,</p>
-        <div className="w-3/4 pt-12 text-4xl font-light md:w-full md:text-xl leading-12 md:pb-20 ">
+      <div className="w-full min-h-screen pr-1 text-white p-7 bg-stone-900 font-space">
+        <p className="pt-5 text-lg text-amber-500">Hey Connect with me ,</p>
+        <div className="w-3/4 pt-4 text-4xl font-light md:w-full md:text-xl leading-12 md:pb-20 ">
           <h1 className="">
             If you&rsquo;re interested in collaboration, have questions, or
             simply want to chat, feel free to reach out to me through various

@@ -19,7 +19,9 @@ export default function Projects() {
   return (
     <>
       <div className="w-full pr-1 text-white p-7 bg-stone-900 font-space">
-        <p className="text-lg pt-9">Hey these are the apps I created ,</p>
+        <p className="text-lg pt-9 text-amber-500">
+          Hey these are the apps I created ,
+        </p>
 
         <div className="w-3/4 pt-12 text-5xl font-light leading-12 ">
           <a
