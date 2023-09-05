@@ -4,9 +4,9 @@ function redirectto() {
 export default function About() {
   return (
     <>
-      <div className="w-full pl-20 pr-1 text-white p-7 bg-stone-900 font-space">
+      <div className="w-full pl-20 pr-1 text-white md:pl-5 p-7 bg-stone-900 font-space">
         <p className="text-lg">Hey About Me,</p>
-        <div className="w-3/4 pt-12 text-4xl font-light leading-12 ">
+        <div className="w-3/4 pt-12 text-4xl font-light md:w-full md:text-2xl md:leading-8 leading-12 ">
           <p className="py-2">
             Hey there, I&rsquo;m Joel J George. I&rsquo;m a final year Data
             Science student with a passion for exploring the ever-evolving world

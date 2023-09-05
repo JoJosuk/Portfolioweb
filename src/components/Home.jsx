@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div className="w-full min-h-screen pr-1 text-white p-7 bg-stone-900 font-space">
-        <div className="absolute pt-2 pl-20 text-amber-500">
+        <div className="absolute pt-2 pl-20 text-amber-500 md:hidden md:pl-5">
           <p className="text-xl font-code ">
             Joel J George <br /> SDE
           </p>
@@ -30,12 +30,12 @@ export default function Home() {
           </ul>
         </nav>
         <div className="flex flex-col justify-center w-4/5 text-4xl font-light pt-44 leading-12">
-          <p className="pl-20 text-5xl font-medium">
+          <p className="pl-20 text-5xl font-medium md:pl-5">
             Hello, I am a{" "}
             <span className="text-amber-500">Software Developer Engineer</span>,
             delving into the realms of desktop and web technologies.
           </p>
-          <div className="pl-20">
+          <div className="pl-20 md:pl-5">
             <div className="flex flex-row gap-4 w-28">
               <svg
                 onClick={() =>
