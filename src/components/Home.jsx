@@ -38,6 +38,7 @@ export default function Home() {
           <div className="pl-20 md:pl-5">
             <div className="flex flex-row gap-4 w-28">
               <svg
+                className="cursor-pointer hover:text-amber-500"
                 onClick={() =>
                   redirecttostr("https://twitter.com/joelgeorge28635")
                 }
@@ -60,6 +61,7 @@ export default function Home() {
                 ></path>
               </svg>
               <svg
+                className="cursor-pointer hover:fill-amber-500"
                 onClick={() => redirecttostr("https://github.com/JoJosuk")}
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
@@ -80,6 +82,7 @@ export default function Home() {
                 ></path>
               </svg>
               <svg
+                className="cursor-pointer hover: text-amber-500"
                 onClick={() =>
                   redirecttostr("https://www.linkedin.com/in/joeljgeorge/")
                 }
