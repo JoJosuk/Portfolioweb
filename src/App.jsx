@@ -17,6 +17,11 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="relative">
+      <h1 className="hidden">
+        Joel J George Software engineer software architect job sde Software
+        developer MACE full stack developer front end developer linkedin github
+        Desktop apps backend{" "}
+      </h1>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
